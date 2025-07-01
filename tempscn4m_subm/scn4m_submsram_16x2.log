@@ -1,0 +1,58 @@
+[2025-06-30 17:07:07.493317] |==============================================================================|
+[2025-06-30 17:07:07.493523] |=========                      OpenRAM v1.2.49                       =========|
+[2025-06-30 17:07:07.493569] |=========                                                            =========|
+[2025-06-30 17:07:07.493601] |=========               VLSI Design and Automation Lab               =========|
+[2025-06-30 17:07:07.493630] |=========        Computer Science and Engineering Department         =========|
+[2025-06-30 17:07:07.493656] |=========            University of California Santa Cruz             =========|
+[2025-06-30 17:07:07.493682] |=========                                                            =========|
+[2025-06-30 17:07:07.493707] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-06-30 17:07:07.493730] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-06-30 17:07:07.493754] |=========                See LICENSE for license info                =========|
+[2025-06-30 17:07:07.493777] |==============================================================================|
+[2025-06-30 17:07:07.493806] ** Start: 06/30/2025 17:07:07
+[2025-06-30 17:07:07.493832] Technology: scn4m_subm
+[2025-06-30 17:07:07.493891] Total size: 32 bits
+[2025-06-30 17:07:07.493933] Word size: 2
+Words: 16
+Banks: 1
+[2025-06-30 17:07:07.493965] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-06-30 17:07:07.493994] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-06-30 17:07:07.494021] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2025-06-30 17:07:07.494046] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-06-30 17:07:07.494073] Words per row: None
+[2025-06-30 17:07:07.494105] Output files are: 
+[2025-06-30 17:07:07.494132] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.lvs
+[2025-06-30 17:07:07.494335] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.sp
+[2025-06-30 17:07:07.494487] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.v
+[2025-06-30 17:07:07.494606] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.lib
+[2025-06-30 17:07:07.494648] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.py
+[2025-06-30 17:07:07.494679] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.html
+[2025-06-30 17:07:07.494707] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.log
+[2025-06-30 17:07:07.494733] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.lef
+[2025-06-30 17:07:07.494757] /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.gds
+[2025-06-30 17:07:07.654104] ** Submodules: 0.2 seconds
+[2025-06-30 17:07:07.655137] ** Placement: 0.0 seconds
+[2025-06-30 17:07:13.074603] ** Routing: 5.4 seconds
+[2025-06-30 17:07:13.076158] ** Verification: 0.0 seconds
+[2025-06-30 17:07:13.076223] ** SRAM creation: 5.6 seconds
+[2025-06-30 17:07:13.076264] SP: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.sp
+[2025-06-30 17:07:13.082192] ** Spice writing: 0.0 seconds
+[2025-06-30 17:07:13.082254] DELAY: Writing stimulus...
+[2025-06-30 17:07:13.101821] ** DELAY: 0.0 seconds
+[2025-06-30 17:07:13.104156] GDS: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.gds
+[2025-06-30 17:07:13.115643] ** GDS: 0.0 seconds
+[2025-06-30 17:07:13.115694] LEF: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.lef
+[2025-06-30 17:07:13.117110] ** LEF: 0.0 seconds
+[2025-06-30 17:07:13.117158] LVS: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.lvs.sp
+[2025-06-30 17:07:13.119716] ** LVS writing: 0.0 seconds
+[2025-06-30 17:07:13.119771] LIB: Characterizing... 
+[2025-06-30 17:07:13.238887] ** Characterization: 0.1 seconds
+[2025-06-30 17:07:13.239164] Config: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.py
+[2025-06-30 17:07:13.239206] ** Config: 0.0 seconds
+[2025-06-30 17:07:13.240518] Datasheet: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.html
+[2025-06-30 17:07:13.241216] ** Datasheet: 0.0 seconds
+[2025-06-30 17:07:13.241256] Verilog: Writing to /Users/fuyaozhou/OpenRAM/tempscn4m_subm/scn4m_submsram_16x2.v
+[2025-06-30 17:07:13.241397] ** Verilog: 0.0 seconds
+[2025-06-30 17:07:13.241719] ** End: 5.7 seconds

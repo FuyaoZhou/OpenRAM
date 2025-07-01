@@ -1,0 +1,58 @@
+[2025-07-01 10:37:35.628343] |==============================================================================|
+[2025-07-01 10:37:35.628531] |=========                      OpenRAM v1.2.49                       =========|
+[2025-07-01 10:37:35.628588] |=========                                                            =========|
+[2025-07-01 10:37:35.628622] |=========               VLSI Design and Automation Lab               =========|
+[2025-07-01 10:37:35.628656] |=========        Computer Science and Engineering Department         =========|
+[2025-07-01 10:37:35.628684] |=========            University of California Santa Cruz             =========|
+[2025-07-01 10:37:35.628710] |=========                                                            =========|
+[2025-07-01 10:37:35.628736] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-07-01 10:37:35.628762] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-07-01 10:37:35.628787] |=========                See LICENSE for license info                =========|
+[2025-07-01 10:37:35.628812] |==============================================================================|
+[2025-07-01 10:37:35.628842] ** Start: 07/01/2025 10:37:35
+[2025-07-01 10:37:35.628869] Technology: freepdk45
+[2025-07-01 10:37:35.628894] Total size: 32 bits
+[2025-07-01 10:37:35.628920] Word size: 2
+Words: 16
+Banks: 1
+[2025-07-01 10:37:35.628946] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-07-01 10:37:35.628971] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-07-01 10:37:35.628996] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2025-07-01 10:37:35.629020] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-07-01 10:37:35.629047] Words per row: None
+[2025-07-01 10:37:35.629077] Output files are: 
+[2025-07-01 10:37:35.629102] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.lvs
+[2025-07-01 10:37:35.629127] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.sp
+[2025-07-01 10:37:35.629151] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.v
+[2025-07-01 10:37:35.629173] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.lib
+[2025-07-01 10:37:35.629194] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.py
+[2025-07-01 10:37:35.629215] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.html
+[2025-07-01 10:37:35.629237] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.log
+[2025-07-01 10:37:35.629258] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.lef
+[2025-07-01 10:37:35.629279] /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.gds
+[2025-07-01 10:37:35.781746] ** Submodules: 0.1 seconds
+[2025-07-01 10:37:35.782792] ** Placement: 0.0 seconds
+[2025-07-01 10:37:41.507873] ** Routing: 5.7 seconds
+[2025-07-01 10:37:41.509259] ** Verification: 0.0 seconds
+[2025-07-01 10:37:41.509321] ** SRAM creation: 5.9 seconds
+[2025-07-01 10:37:41.509369] SP: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.sp
+[2025-07-01 10:37:41.515673] ** Spice writing: 0.0 seconds
+[2025-07-01 10:37:41.515777] DELAY: Writing stimulus...
+[2025-07-01 10:37:41.534725] ** DELAY: 0.0 seconds
+[2025-07-01 10:37:41.537617] GDS: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.gds
+[2025-07-01 10:37:41.549894] ** GDS: 0.0 seconds
+[2025-07-01 10:37:41.549979] LEF: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.lef
+[2025-07-01 10:37:41.551414] ** LEF: 0.0 seconds
+[2025-07-01 10:37:41.551470] LVS: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.lvs.sp
+[2025-07-01 10:37:41.554279] ** LVS writing: 0.0 seconds
+[2025-07-01 10:37:41.554354] LIB: Characterizing... 
+[2025-07-01 10:37:41.669684] ** Characterization: 0.1 seconds
+[2025-07-01 10:37:41.669940] Config: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.py
+[2025-07-01 10:37:41.669979] ** Config: 0.0 seconds
+[2025-07-01 10:37:41.671277] Datasheet: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.html
+[2025-07-01 10:37:41.672254] ** Datasheet: 0.0 seconds
+[2025-07-01 10:37:41.672300] Verilog: Writing to /Users/fuyaozhou/OpenRAM/tempfreepdk45/freepdk45_16x2.v
+[2025-07-01 10:37:41.672441] ** Verilog: 0.0 seconds
+[2025-07-01 10:37:41.672741] ** End: 6.0 seconds

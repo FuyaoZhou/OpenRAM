@@ -21,8 +21,8 @@ import os
 import datetime
 
 # You don't need the next two lines if you're sure that openram package is installed
-from common import *
-make_openram_package()
+# from common import *
+# make_openram_package()
 import openram
 
 (OPTS, args) = openram.parse_args()
