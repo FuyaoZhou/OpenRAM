@@ -1,0 +1,59 @@
+[2025-07-10 15:51:58.120793] |==============================================================================|
+[2025-07-10 15:51:58.120957] |=========                      OpenRAM v1.2.49                       =========|
+[2025-07-10 15:51:58.120998] |=========                                                            =========|
+[2025-07-10 15:51:58.121029] |=========               VLSI Design and Automation Lab               =========|
+[2025-07-10 15:51:58.121057] |=========        Computer Science and Engineering Department         =========|
+[2025-07-10 15:51:58.121083] |=========            University of California Santa Cruz             =========|
+[2025-07-10 15:51:58.121108] |=========                                                            =========|
+[2025-07-10 15:51:58.121133] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-07-10 15:51:58.121156] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-07-10 15:51:58.121179] |=========                See LICENSE for license info                =========|
+[2025-07-10 15:51:58.121203] |==============================================================================|
+[2025-07-10 15:51:58.121234] ** Start: 07/10/2025 15:51:58
+[2025-07-10 15:51:58.121260] Technology: scn4m_subm
+[2025-07-10 15:51:58.121285] Total size: 1024 bits
+[2025-07-10 15:51:58.121347] Word size: 8
+Words: 128
+Banks: 1
+[2025-07-10 15:51:58.121412] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-07-10 15:51:58.121448] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-07-10 15:51:58.121477] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-07-10 15:51:58.121506] Words per row: None
+[2025-07-10 15:51:58.121535] Output files are: 
+[2025-07-10 15:51:58.121560] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.lvs
+[2025-07-10 15:51:58.121584] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.sp
+[2025-07-10 15:51:58.121607] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.v
+[2025-07-10 15:51:58.121630] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.lib
+[2025-07-10 15:51:58.121652] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.py
+[2025-07-10 15:51:58.121674] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.html
+[2025-07-10 15:51:58.121696] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.log
+[2025-07-10 15:51:58.121718] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.lef
+[2025-07-10 15:51:58.121741] /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.gds
+[2025-07-10 15:51:58.657845] ** Submodules: 0.5 seconds
+[2025-07-10 15:51:58.661057] ** Placement: 0.0 seconds
+[2025-07-10 15:52:16.827574] ** Routing: 18.2 seconds
+[2025-07-10 15:52:34.013346] WARNING: file klayout.py: line 96: DRC Errors scn4m_subm-spice-710-128x8	32
+
+[2025-07-10 15:52:37.039528] ** Verification: 20.2 seconds
+[2025-07-10 15:52:37.040464] ** SRAM creation: 38.9 seconds
+[2025-07-10 15:52:37.041063] SP: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.sp
+[2025-07-10 15:52:37.086189] ** Spice writing: 0.0 seconds
+[2025-07-10 15:52:37.086302] DELAY: Writing stimulus...
+[2025-07-10 15:52:37.147102] ** DELAY: 0.1 seconds
+[2025-07-10 15:52:37.157606] GDS: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.gds
+[2025-07-10 15:52:37.199512] ** GDS: 0.0 seconds
+[2025-07-10 15:52:37.199602] LEF: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.lef
+[2025-07-10 15:52:37.201691] ** LEF: 0.0 seconds
+[2025-07-10 15:52:37.201731] LVS: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.lvs.sp
+[2025-07-10 15:52:37.216073] ** LVS writing: 0.0 seconds
+[2025-07-10 15:52:37.216188] LIB: Characterizing... 
+[2025-07-10 15:52:37.450290] ** Characterization: 0.2 seconds
+[2025-07-10 15:52:37.450647] Config: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.py
+[2025-07-10 15:52:37.450684] ** Config: 0.0 seconds
+[2025-07-10 15:52:37.451823] Datasheet: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.html
+[2025-07-10 15:52:37.452973] ** Datasheet: 0.0 seconds
+[2025-07-10 15:52:37.453011] Verilog: Writing to /Users/fuyaozhou/OpenRAM/scn4m_subm-spice-710-128x8/scn4m_subm-spice-710-128x8.v
+[2025-07-10 15:52:37.453166] ** Verilog: 0.0 seconds
+[2025-07-10 15:52:37.453969] ** End: 39.3 seconds

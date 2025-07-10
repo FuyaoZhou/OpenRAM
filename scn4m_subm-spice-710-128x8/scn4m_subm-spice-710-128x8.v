@@ -1,8 +1,8 @@
 // OpenRAM SRAM model
-// Words: 16
-// Word size: 2
+// Words: 128
+// Word size: 8
 
-module freepdk45_16x2(
+module scn4m_subm-spice-710-128x8(
 `ifdef USE_POWER_PINS
     vdd,
     gnd,
@@ -11,8 +11,8 @@ module freepdk45_16x2(
     clk0,csb0,web0,addr0,din0,dout0
   );
 
-  parameter DATA_WIDTH = 2 ;
-  parameter ADDR_WIDTH = 4 ;
+  parameter DATA_WIDTH = 8 ;
+  parameter ADDR_WIDTH = 7 ;
   parameter RAM_DEPTH = 1 << ADDR_WIDTH;
   // FIXME: This delay is arbitrary.
   parameter DELAY = 3 ;
@@ -45,7 +45,7 @@ module freepdk45_16x2(
     web0_reg = web0;
     addr0_reg = addr0;
     din0_reg = din0;
-    #(T_HOLD) dout0 = 2'bx;
+    #(T_HOLD) dout0 = 8'bx;
     if ( !csb0_reg && web0_reg && VERBOSE )
       $display($time," Reading %m addr0=%b dout0=%b",addr0_reg,mem[addr0_reg]);
     if ( !csb0_reg && !web0_reg && VERBOSE )
@@ -58,7 +58,7 @@ module freepdk45_16x2(
   always @ (negedge clk0)
   begin : MEM_WRITE0
     if ( !csb0_reg && !web0_reg ) begin
-        mem[addr0_reg][1:0] = din0_reg[1:0];
+        mem[addr0_reg][7:0] = din0_reg[7:0];
     end
   end
 

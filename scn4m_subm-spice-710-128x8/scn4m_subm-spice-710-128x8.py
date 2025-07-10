@@ -4,16 +4,16 @@ word_size = 8
 num_words = 128
 
 # Technology to use in $OPENRAM_TECH
-tech_name = "freepdk45"  # More mature technology with better DRC compliance
+tech_name = "scn4m_subm"  # More mature technology with better DRC compliance
 # Process corners for characterization
 process_corners = ["TT", "FF", "SS"]
 supply_voltages = [1.0]
 temperatures = [25]
 
 # Output directory for the results
-output_path = "freepdk45-spice-710-128x8"
+output_path = "scn4m_subm-spice-710-128x8"
 # Output file base name
-output_name = "freepdk45-spice-710-128x8"
+output_name = "scn4m_subm-spice-710-128x8"
 
 # Disable analytical models for full characterization (WARNING: slow!)
 analytical_delay = True
@@ -28,9 +28,9 @@ slew_scales = [1, 4]     # Only 2 slew points
 
 # Re-enable DRC/LVS verification
 check_lvsdrc = True
-inline_lvsdrc = False  # Disable inline LVS to avoid duplicate circuit definition errors
+inline_lvsdrc = False  # Disable inline LVS to avoid scn4m_subm KLayout LVS issues
 
-# Use KLayout for DRC/LVS/PEX (works with freepdk45)
+# Use KLayout for DRC/LVS/PEX (works with scn4m_subm)
 drc_name = "klayout"
 lvs_name = "klayout"
 pex_name = "klayout"
