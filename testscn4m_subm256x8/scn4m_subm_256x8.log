@@ -1,0 +1,58 @@
+[2025-07-03 16:04:54.905655] |==============================================================================|
+[2025-07-03 16:04:54.905814] |=========                      OpenRAM v1.2.49                       =========|
+[2025-07-03 16:04:54.905854] |=========                                                            =========|
+[2025-07-03 16:04:54.905885] |=========               VLSI Design and Automation Lab               =========|
+[2025-07-03 16:04:54.905912] |=========        Computer Science and Engineering Department         =========|
+[2025-07-03 16:04:54.905937] |=========            University of California Santa Cruz             =========|
+[2025-07-03 16:04:54.905962] |=========                                                            =========|
+[2025-07-03 16:04:54.905986] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-07-03 16:04:54.906010] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-07-03 16:04:54.906034] |=========                See LICENSE for license info                =========|
+[2025-07-03 16:04:54.906057] |==============================================================================|
+[2025-07-03 16:04:54.906087] ** Start: 07/03/2025 16:04:54
+[2025-07-03 16:04:54.906114] Technology: scn4m_subm
+[2025-07-03 16:04:54.906139] Total size: 2048 bits
+[2025-07-03 16:04:54.906163] Word size: 8
+Words: 256
+Banks: 1
+[2025-07-03 16:04:54.906188] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-07-03 16:04:54.906211] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-07-03 16:04:54.906233] DRC/LVS/PEX is disabled (check_lvsdrc=True to enable).
+[2025-07-03 16:04:54.906255] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-07-03 16:04:54.906293] Words per row: None
+[2025-07-03 16:04:54.906319] Output files are: 
+[2025-07-03 16:04:54.906343] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.lvs
+[2025-07-03 16:04:54.906366] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.sp
+[2025-07-03 16:04:54.906388] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.v
+[2025-07-03 16:04:54.906410] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.lib
+[2025-07-03 16:04:54.906433] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.py
+[2025-07-03 16:04:54.906455] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.html
+[2025-07-03 16:04:54.906477] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.log
+[2025-07-03 16:04:54.906499] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.lef
+[2025-07-03 16:04:54.906521] /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.gds
+[2025-07-03 16:04:56.155926] ** Submodules: 1.2 seconds
+[2025-07-03 16:04:56.158261] ** Placement: 0.0 seconds
+[2025-07-03 16:05:15.538011] ** Routing: 19.4 seconds
+[2025-07-03 16:05:15.540051] ** Verification: 0.0 seconds
+[2025-07-03 16:05:15.540119] ** SRAM creation: 20.6 seconds
+[2025-07-03 16:05:15.540157] SP: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.sp
+[2025-07-03 16:05:15.565043] ** Spice writing: 0.0 seconds
+[2025-07-03 16:05:15.565106] DELAY: Writing stimulus...
+[2025-07-03 16:05:15.720040] ** DELAY: 0.2 seconds
+[2025-07-03 16:05:15.736860] GDS: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.gds
+[2025-07-03 16:05:15.791383] ** GDS: 0.1 seconds
+[2025-07-03 16:05:15.791541] LEF: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.lef
+[2025-07-03 16:05:15.793854] ** LEF: 0.0 seconds
+[2025-07-03 16:05:15.793908] LVS: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.lvs.sp
+[2025-07-03 16:05:15.810617] ** LVS writing: 0.0 seconds
+[2025-07-03 16:05:15.810712] LIB: Characterizing... 
+[2025-07-03 16:05:16.128291] ** Characterization: 0.3 seconds
+[2025-07-03 16:05:16.128710] Config: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.py
+[2025-07-03 16:05:16.128789] ** Config: 0.0 seconds
+[2025-07-03 16:05:16.129932] Datasheet: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.html
+[2025-07-03 16:05:16.131109] ** Datasheet: 0.0 seconds
+[2025-07-03 16:05:16.131153] Verilog: Writing to /Users/fuyaozhou/OpenRAM/testscn4m_subm256x8/scn4m_subm_256x8.v
+[2025-07-03 16:05:16.131290] ** Verilog: 0.0 seconds
+[2025-07-03 16:05:16.131669] ** End: 21.2 seconds

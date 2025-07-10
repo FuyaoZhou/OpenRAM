@@ -3,7 +3,7 @@
 * TT process corner
 .include "/Users/fuyaozhou/OpenRAM/technology/freepdk45/models/tran_models/models_nom/PMOS_VTG.inc"
 .include "/Users/fuyaozhou/OpenRAM/technology/freepdk45/models/tran_models/models_nom/NMOS_VTG.inc"
-.include "/tmp/openram_fuyaozhou_47048_temp/trimmed.sp"
+.include "/tmp/openram_fuyaozhou_71070_temp/trimmed.sp"
 
 * Global Power Supplies
 Vvdd vdd 0 5

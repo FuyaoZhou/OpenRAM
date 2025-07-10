@@ -18,7 +18,7 @@ output_path = "tempfreepdk45spice"
 output_name = "freepdk45_16x2"
 
 # Disable analytical models for full characterization (WARNING: slow!)
-analytical_delay = False
+# analytical_delay = False
 
 # # To force this to use magic and netgen for DRC/LVS/PEX
 # # Could be calibre for FreePDK45

@@ -91,14 +91,14 @@ MACRO freepdk45_16x2
       USE POWER ; 
       SHAPE ABUTMENT ; 
       PORT
-         LAYER metal3 ;
-         RECT  0.0 0.0 33.24 0.7 ;
          LAYER metal4 ;
-         RECT  32.54 0.0 33.24 52.84 ;
+         RECT  0.0 0.0 0.7 52.84 ;
          LAYER metal3 ;
          RECT  0.0 52.14 33.24 52.84 ;
          LAYER metal4 ;
-         RECT  0.0 0.0 0.7 52.84 ;
+         RECT  32.54 0.0 33.24 52.84 ;
+         LAYER metal3 ;
+         RECT  0.0 0.0 33.24 0.7 ;
       END
    END vdd
    PIN gnd
@@ -110,10 +110,10 @@ MACRO freepdk45_16x2
          RECT  1.4 1.4 2.1 51.44 ;
          LAYER metal3 ;
          RECT  1.4 50.74 31.84 51.44 ;
-         LAYER metal3 ;
-         RECT  1.4 1.4 31.84 2.1 ;
          LAYER metal4 ;
          RECT  31.14 1.4 31.84 51.44 ;
+         LAYER metal3 ;
+         RECT  1.4 1.4 31.84 2.1 ;
       END
    END gnd
    OBS
@@ -128,9 +128,9 @@ MACRO freepdk45_16x2
       RECT  0.28 15.4875 32.96 15.9075 ;
       RECT  0.28 15.9075 32.96 40.64 ;
       RECT  32.96 15.9075 33.1 40.64 ;
+      RECT  0.14 41.06 0.28 52.0 ;
       RECT  0.14 0.84 0.28 4.11 ;
       RECT  32.96 0.84 33.1 15.2525 ;
-      RECT  0.14 41.06 0.28 52.0 ;
       RECT  0.28 41.06 1.26 50.6 ;
       RECT  0.28 50.6 1.26 51.58 ;
       RECT  0.28 51.58 1.26 52.0 ;
@@ -154,9 +154,9 @@ MACRO freepdk45_16x2
       RECT  11.005 0.42 16.5925 52.42 ;
       RECT  11.86 52.42 16.5925 52.7 ;
       RECT  10.26 0.14 16.5925 0.42 ;
-      RECT  20.1525 0.14 32.26 0.42 ;
       RECT  0.98 52.42 10.305 52.7 ;
       RECT  0.98 0.14 9.56 0.42 ;
+      RECT  20.1525 0.14 32.26 0.42 ;
       RECT  0.98 0.42 1.12 1.12 ;
       RECT  0.98 1.12 1.12 51.72 ;
       RECT  0.98 51.72 1.12 52.42 ;

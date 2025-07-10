@@ -94,9 +94,9 @@ cell (freepdk45_16x2){
     }
 
     leakage_power () {
-      value : 6.4783159999999995;
+      value : 0.000194;
     }
-    cell_leakage_power : 6.4783159999999995;
+    cell_leakage_power : 0.000194;
     bus(din0){
         bus_type  : data; 
         direction  : input; 
@@ -110,28 +110,28 @@ cell (freepdk45_16x2){
             timing_type : setup_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
         }
         timing(){ 
             timing_type : hold_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
               }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
             }
         }
         }
@@ -150,24 +150,24 @@ cell (freepdk45_16x2){
             related_pin : "clk0"; 
             timing_type : falling_edge; 
             cell_rise(CELL_TABLE) {
-            values("0.155, 0.155, 0.156",\
-                   "0.157, 0.157, 0.158",\
-                   "0.158, 0.158, 0.159");
+            values("0.114, 0.114, 0.114",\
+                   "0.114, 0.114, 0.114",\
+                   "0.114, 0.114, 0.114");
             }
             cell_fall(CELL_TABLE) {
-            values("0.155, 0.155, 0.156",\
-                   "0.157, 0.157, 0.158",\
-                   "0.158, 0.158, 0.159");
+            values("0.114, 0.114, 0.114",\
+                   "0.114, 0.114, 0.114",\
+                   "0.114, 0.114, 0.114");
             }
             rise_transition(CELL_TABLE) {
-            values("0.019, 0.019, 0.02",\
-                   "0.02, 0.02, 0.021",\
-                   "0.019, 0.02, 0.021");
+            values("0.0, 0.0, 0.0",\
+                   "0.0, 0.0, 0.0",\
+                   "0.0, 0.0, 0.0");
             }
             fall_transition(CELL_TABLE) {
-            values("0.019, 0.019, 0.02",\
-                   "0.02, 0.02, 0.021",\
-                   "0.019, 0.02, 0.021");
+            values("0.0, 0.0, 0.0",\
+                   "0.0, 0.0, 0.0",\
+                   "0.0, 0.0, 0.0");
             }
         }
         }
@@ -183,28 +183,28 @@ cell (freepdk45_16x2){
             timing_type : setup_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
         }
         timing(){ 
             timing_type : hold_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
               }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
             }
         }
         }
@@ -217,28 +217,28 @@ cell (freepdk45_16x2){
             timing_type : setup_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
         }
         timing(){ 
             timing_type : hold_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
               }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
             }
         }
     }
@@ -250,28 +250,28 @@ cell (freepdk45_16x2){
             timing_type : setup_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033",\
-                   "0.033, 0.033, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033",\
-                   "0.021, 0.021, 0.033");
+            values("0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009",\
+                   "0.009, 0.009, 0.009");
             }
         }
         timing(){ 
             timing_type : hold_rising; 
             related_pin  : "clk0"; 
             rise_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028",\
-                   "-0.016, -0.016, -0.028");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
               }
             fall_constraint(CONSTRAINT_TABLE) {
-            values("-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016",\
-                   "-0.016, -0.016, -0.016");
+            values("0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001",\
+                   "0.001, 0.001, 0.001");
             }
         }
     }
@@ -283,57 +283,57 @@ cell (freepdk45_16x2){
         internal_power(){
             when : "!csb0 & !web0"; 
             rise_power(scalar){
-                values("7.187826e+00");
+                values("2.823774e-01");
             }
             fall_power(scalar){
-                values("7.488492e+00");
+                values("2.823774e-01");
             }
         }
         internal_power(){
             when : "csb0 & !web0"; 
             rise_power(scalar){
-                values("6.258713e+00");
+                values("2.823774e-01");
             }
             fall_power(scalar){
-                values("6.251419e+00");
+                values("2.823774e-01");
             }
         }
         internal_power(){
             when : "!csb0 & web0"; 
             rise_power(scalar){
-                values("7.191942e+00");
+                values("2.823774e-01");
             }
             fall_power(scalar){
-                values("7.213843e+00");
+                values("2.823774e-01");
             }
         }
         internal_power(){
             when : "csb0 & web0"; 
             rise_power(scalar){
-                values("6.171377e+00");
+                values("2.823774e-01");
             }
             fall_power(scalar){
-                values("6.040609e+00");
+                values("2.823774e-01");
             }
         }
         timing(){ 
             timing_type : "min_pulse_width"; 
             related_pin  : clk0; 
             rise_constraint(scalar) {
-                values("0.3905"); 
+                values("0.2115"); 
             }
             fall_constraint(scalar) {
-                values("0.3905"); 
+                values("0.2115"); 
             }
          }
         timing(){ 
             timing_type : "minimum_period"; 
             related_pin  : clk0; 
             rise_constraint(scalar) {
-                values("0.781"); 
+                values("0.423"); 
             }
             fall_constraint(scalar) {
-                values("0.781"); 
+                values("0.423"); 
             }
          }
     }

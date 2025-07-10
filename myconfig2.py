@@ -1,10 +1,11 @@
 # Data word size
-word_size = 2
+word_size = 16
 # Number of words in the memory
-num_words = 16
+num_words = 256
+words_per_row = 4
 
 # Technology to use in $OPENRAM_TECH
-tech_name = "freepdk45"
+tech_name = "sky130"
 # Process corners to characterize
 process_corners = [ "TT" ]
 # Voltage corners to characterize
@@ -13,15 +14,20 @@ supply_voltages = [ 1.8 ]
 temperatures = [ 25 ]
 
 # Output directory for the results
-output_path = "testfreepdk45spice"
+output_path = "testsky130"
 # Output file base name
-output_name = "freepdk45_16x2"
+output_name = "sky130_16x2"
 
 # Disable analytical models for full characterization (WARNING: slow!)
 # analytical_delay = False
 
 # # To force this to use magic and netgen for DRC/LVS/PEX
 # # Could be calibre for FreePDK45
-drc_name = "magic"
-lvs_name = "netgen"
-pex_name = "magic"
+# drc_name = "magic"
+# lvs_name = "netgen"
+# pex_name = "magic"
+
+# Additional configuration for proper bitline extraction and spare rows/columns
+num_spare_cols = 1
+num_spare_rows = 1
+
