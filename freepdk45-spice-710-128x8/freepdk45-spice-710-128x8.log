@@ -1,0 +1,57 @@
+[2025-07-10 16:04:20.086148] |==============================================================================|
+[2025-07-10 16:04:20.086305] |=========                      OpenRAM v1.2.49                       =========|
+[2025-07-10 16:04:20.086345] |=========                                                            =========|
+[2025-07-10 16:04:20.086374] |=========               VLSI Design and Automation Lab               =========|
+[2025-07-10 16:04:20.086402] |=========        Computer Science and Engineering Department         =========|
+[2025-07-10 16:04:20.086428] |=========            University of California Santa Cruz             =========|
+[2025-07-10 16:04:20.086452] |=========                                                            =========|
+[2025-07-10 16:04:20.086476] |=========          Usage help: openram-user-group@ucsc.edu           =========|
+[2025-07-10 16:04:20.086499] |=========        Development help: openram-dev-group@ucsc.edu        =========|
+[2025-07-10 16:04:20.086522] |=========                See LICENSE for license info                =========|
+[2025-07-10 16:04:20.086544] |==============================================================================|
+[2025-07-10 16:04:20.086573] ** Start: 07/10/2025 16:04:20
+[2025-07-10 16:04:20.086599] Technology: freepdk45
+[2025-07-10 16:04:20.086623] Total size: 1024 bits
+[2025-07-10 16:04:20.086648] Word size: 8
+Words: 128
+Banks: 1
+[2025-07-10 16:04:20.086672] RW ports: 1
+R-only ports: 0
+W-only ports: 0
+[2025-07-10 16:04:20.086696] DRC/LVS/PEX is only run on the top-level design to save run-time (inline_lvsdrc=True to do inline checking).
+[2025-07-10 16:04:20.086719] Characterization is disabled (using analytical delay models) (analytical_delay=False to simulate).
+[2025-07-10 16:04:20.086743] Words per row: None
+[2025-07-10 16:04:20.086772] Output files are: 
+[2025-07-10 16:04:20.086798] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.lvs
+[2025-07-10 16:04:20.086823] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.sp
+[2025-07-10 16:04:20.086844] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.v
+[2025-07-10 16:04:20.086868] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.lib
+[2025-07-10 16:04:20.086892] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.py
+[2025-07-10 16:04:20.086916] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.html
+[2025-07-10 16:04:20.086940] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.log
+[2025-07-10 16:04:20.086964] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.lef
+[2025-07-10 16:04:20.086988] /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.gds
+[2025-07-10 16:04:20.605783] ** Submodules: 0.5 seconds
+[2025-07-10 16:04:20.608118] ** Placement: 0.0 seconds
+[2025-07-10 16:04:40.422567] ** Routing: 19.8 seconds
+[2025-07-10 16:04:55.571177] ** Verification: 15.1 seconds
+[2025-07-10 16:04:55.571582] ** SRAM creation: 35.5 seconds
+[2025-07-10 16:04:55.571921] SP: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.sp
+[2025-07-10 16:04:55.604053] ** Spice writing: 0.0 seconds
+[2025-07-10 16:04:55.604211] DELAY: Writing stimulus...
+[2025-07-10 16:04:55.663729] ** DELAY: 0.1 seconds
+[2025-07-10 16:04:55.674142] GDS: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.gds
+[2025-07-10 16:04:55.713850] ** GDS: 0.0 seconds
+[2025-07-10 16:04:55.713936] LEF: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.lef
+[2025-07-10 16:04:55.716527] ** LEF: 0.0 seconds
+[2025-07-10 16:04:55.716598] LVS: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.lvs.sp
+[2025-07-10 16:04:55.730898] ** LVS writing: 0.0 seconds
+[2025-07-10 16:04:55.730957] LIB: Characterizing... 
+[2025-07-10 16:04:55.916300] ** Characterization: 0.2 seconds
+[2025-07-10 16:04:55.916643] Config: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.py
+[2025-07-10 16:04:55.916694] ** Config: 0.0 seconds
+[2025-07-10 16:04:55.917852] Datasheet: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.html
+[2025-07-10 16:04:55.919072] ** Datasheet: 0.0 seconds
+[2025-07-10 16:04:55.919143] Verilog: Writing to /Users/fuyaozhou/OpenRAM/freepdk45-spice-710-128x8/freepdk45-spice-710-128x8.v
+[2025-07-10 16:04:55.919296] ** Verilog: 0.0 seconds
+[2025-07-10 16:04:55.920088] ** End: 35.8 seconds
